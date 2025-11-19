@@ -5,8 +5,8 @@ _rust_version='nightly'
 _sdk='std-sdk'
 _suffix="$( [ "$_sdk" == "std-sdk" ] && echo "" || echo "-$_sdk" )"
 pkgname="llrt$_suffix-git"
-pkgver=20251118.190320
-pkgrel=2
+pkgver=20251119.093432
+pkgrel=1
 pkgdesc='Lightweight JavaScript runtime, compiler, REPL, and test runner (STANDARD @aws-sdk bundled)'
 arch=('x86_64' 'aarch64')
 url='https://github.com/awslabs/llrt'
