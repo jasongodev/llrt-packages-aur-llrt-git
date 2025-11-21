@@ -5,7 +5,7 @@ _rust_version='nightly'
 _sdk='std-sdk'
 _suffix="$( [ "$_sdk" == "std-sdk" ] && echo "" || echo "-$_sdk" )"
 pkgname="llrt$_suffix-git"
-pkgver=20251119.093432
+pkgver=20251121.120336
 pkgrel=1
 pkgdesc='Lightweight JavaScript runtime, compiler, REPL, and test runner (STANDARD @aws-sdk bundled)'
 arch=('x86_64' 'aarch64')
